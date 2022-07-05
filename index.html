@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="common.css">
+    <script src="common.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1><a href="#"><img src="./img/logo_gray.png" alt=""></a></h1>
+        <div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="ham">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="login_con">
+            <div>
+                <i class="fa-solid fa-user"></i>
+                <a href="#">로그인을 해주세요</a>
+            </div>
+            <div class="ham_close">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <ul class="gnb">
+            <li class="book1">
+                <p>교과서</p>
+                <ul class="sub">
+                    <li><i class="fa-solid fa-chevron-left sub_prev"></i></li>
+                    <li>
+                        <div class="sub_textBook">
+                            <p>교과서</p>
+                            <a href="#"><i class="fa-solid fa-house"></i>교과서 홈</a>
+                        </div>
+                    </li>
+                    <li><a href="#">미래엔 교과서</a></li>
+                    <li><a href="#">초등</a></li>
+                    <li><a href="#">중등</a></li>
+                    <li><a href="#">고등</a></li>
+                    <li><a href="#">특수교육</a></li>
+                    <li><a href="#">성인문해</a></li>
+                </ul>
+            </li>
+            <li class="book2">
+                <p>참고서</p>
+                <ul class="sub">
+                    <li><i class="fa-solid fa-chevron-left sub_prev"></i></li>
+                    <li>
+                        <div class="sub_textBook">
+                            <p>참고서</p>
+                            <a href="#"><i class="fa-solid fa-house"></i>참고서 홈</a>
+                        </div>
+                    </li>
+                    <li><a href="#">초등</a></li>
+                    <li><a href="#">중등</a></li>
+                    <li><a href="#">고등</a></li>
+                    <li><a href="#">참고서 자료실</a></li>
+                    <li><a href="#">선생님 자료실</a></li>
+                    <li><a href="#">교재 큐레이션</a></li>
+                    <li><a href="#">수학 과외쌤</a></li>
+                </ul>
+            </li>
+            <li class="book3">
+                <p>일반도서</p>
+                <ul class="sub">
+                    <li><i class="fa-solid fa-chevron-left sub_prev"></i></li>
+                    <li>
+                        <div class="sub_textBook">
+                            <p>일반도서</p>
+                            <a href="#"><i class="fa-solid fa-house"></i>일반도서 홈</a>
+                        </div>
+                    </li>
+                    <li><a href="#">영유아</a></li>
+                    <li><a href="#">초등</a></li>
+                    <li><a href="#">청소년</a></li>
+                    <li><a href="#">성인</a></li>
+                </ul>
+            </li>
+            <li class="book4">
+                <p>맘티처</p>
+                <ul class="sub">
+                    <li><i class="fa-solid fa-chevron-left sub_prev"></i></li>
+                    <li>
+                        <div class="sub_textBook">
+                            <p>맘티처</p>
+                            <a href="#"><i class="fa-solid fa-house"></i>맘티처 홈</a>
+                        </div>
+                    </li>
+                    <li><a href="#">맘티처란?</a></li>
+                    <li><a href="#">추천 학습지</a></li>
+                    <li><a href="#">한글</a></li>
+                    <li><a href="#">수학</a></li>
+                    <li><a href="#">영어</a></li>
+                    <li><a href="#">한자</a></li>
+                    <li><a href="#">창의미술</a></li>
+                    <li><a href="#">과학탐구</a></li>
+                    <li><a href="#">지능개발</a></li>
+                    <li><a href="#">초등준비</a></li>
+                </ul>
+            </li>
+            <li class="book5">
+                공모전
+                <ul class="sub">
+                    <li><i class="fa-solid fa-chevron-left sub_prev"></i></li>
+                    <li>
+                        <div class="sub_textBook">
+                            <p>공모전</p>
+                            <a href="#"><i class="fa-solid fa-house"></i>공모전 홈</a>
+                        </div>
+                    </li>
+                    <li><a href="#">초등학생 손글씨</a></li>
+                    <li><a href="#">초등학생 글솜씨</a></li>
+                    <li><a href="#">교과서 창작 글감</a></li>
+                    <li><a href="#">어린이책</a></li>
+                    <li><a href="#">성인 실용 에세이</a></li>
+                    <li><a href="#">어린이 만화 작가</a></li>
+                    <li><a href="#">심사발표</a></li>
+                    <li><a href="#">역대수상작</a></li>
+                </ul>
+            </li>
+            <li class="book6">
+                <p>기업소개</p>
+                <ul class="sub">
+                    <li><i class="fa-solid fa-chevron-left sub_prev"></i></li>
+                    <li>
+                        <div class="sub_textBook">
+                            <p>기업소개</p>
+                            <a href="#"><i class="fa-solid fa-house"></i>기업소개 홈</a>
+                        </div>
+                    </li>
+                    <li><a href="#">미래엔 소개</a></li>
+                    <li><a href="#">CEO 인사말</a></li>
+                    <li><a href="#">가치체계</a></li>
+                    <li><a href="#">연혁</a></li>
+                    <li><a href="#">사업분야</a></li>
+                    <li><a href="#">CI</a></li>
+                    <li><a href="#">서체</a></li>
+                    <li><a href="#">계열사소개</a></li>
+                </ul>
+            </li>
+            <li class="book7">
+                홍보센터
+                <ul class="sub">
+                    <li><i class="fa-solid fa-chevron-left sub_prev"></i></li>
+                    <li>
+                        <div class="sub_textBook">
+                            <p>홍보센터</p>
+                            <a href="#"><i class="fa-solid fa-house"></i>홍보센터 홈</a>
+                        </div>
+                    </li>
+                    <li><a href="#">언론보도</a></li>
+                    <li><a href="#">광고</a></li>
+                    <li><a href="#">사보</a></li>
+                    <li><a href="#">사회공헌</a></li>
+                </ul>
+            </li>
+            <li class="book8">
+                <p>계열사</p>
+                <ul class="sub">
+                    <li><i class="fa-solid fa-chevron-left sub_prev"></i></li>
+                    <li>
+                        <div class="sub_textBook">
+                            <p>계열사</p>
+                            <a href="#"><i class="fa-solid fa-house"></i>계열사 홈</a>
+                        </div>
+                    </li>
+                    <li><a href="#">현대문학</a></li>
+                    <li><a href="#">미래엔에듀케어</a></li>
+                    <li><a href="#">미래엔에듀파트너</a></li>
+                    <li><a href="#">영실업</a></li>
+                    <li><a href="#">미래엔서해에너지</a></li>
+                    <li><a href="#">미래엔인천에너지</a></li>
+                    <li><a href="#">전북도시가스</a></li>
+                    <li><a href="#">오션스위츠 제주 호텔</a></li>
+                    <li><a href="#">엔베스터</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="copy">
+            <p>
+                <a href="#"><span>인재채용</span></a>
+                <a href="#"><span>고객센터</span></a>
+                <a href="#"><span>오시는길</span></a>
+                <a href="#"><span>관련사이트</span></a>
+            </p>
+            <ul class="sns">
+                <li><a href="#"><img src="./img/sns_icon_instagram.png" alt=""></a></li>
+                <li><a href="#"><img src="./img/sns_icon_facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="./img/sns_icon_blog.png" alt=""></a></li>
+                <li><a href="#"><img src="./img/sns_icon_youtube.png" alt=""></a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="sec1">
+        <div class="wrapper">
+            <ul class="main">
+                <li>
+                    <video src="./img/main_1.mp4" muted autoplay loop></video>
+                </li>
+                <li>
+                    <video src="./img/main_2.mp4" muted autoplay loop></video>
+                </li>
+                <li>
+                    <img src="./img/main_3.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        <ul class="main_text">
+            <li>
+                <h2>교과서를 만듭니다</h2>
+                <p>교육의 미래를 준비합니다</p>
+            </li>
+        </ul>
+        <div class="dot_con">
+            <span class="dot1 on"></span>
+            <span class="dot2"></span>
+            <span class="dot3"></span>
+        </div>
+    </section>
+    <section class="sec2">
+        <h3>미래엔 NOW</h3>
+        <div class="sec2_wrapper">
+            <div>
+                <a href="#">자세히보기</a>
+                <img src="./img/miraen_now1.png" alt="">
+                <p>(주)미래엔, 교과서 띄어쓰기 용례 집대성한 『교과서 띄어쓰기 사전』발간</p>
+            </div>
+            <div>
+                <a href="#">자세히보기</a>
+                <img src="./img/miraen_now2.png" alt="">
+                <p>미래엔, iF 디자인 어워드 본상 5개 수상</p>
+            </div>
+        </div>
+        <div class="sec2_wrapper">
+            <div>
+                <a href="#">자세히보기</a>
+                <img src="./img/miraen_now3.jpg" alt="">
+                <p>함께하는 미래엔 공모전</p>
+            </div>
+            <div>
+                <a href="#">자세히보기</a>
+                <img src="./img/miraen_now4.jpg" alt="">
+                <p>(주)미래엔, 초등 엠티처 학습관리 솔루션 'AI 클래스' 신규 오픈)</p>
+            </div>
+        </div>
+        <div class="sec2_wrapper">
+            <div>
+                <a href="#">자세히보기</a>
+                <img src="./img/miraen_now5.jpg" alt="">
+                <p>(주)미래엔, 초등 참고서 '하루 한장' 학습관리 앱 업데이트 실시</p>
+            </div>
+            <div>
+                <a href="#">자세히보기</a>
+                <img src="./img/miraen_now6.jpg" alt="">
+                <p>(주)미래엔, 교과서 기반 초등 학습서 초코 출간</p>
+            </div>
+        </div>
+    </section>
+    <section class="sec3">
+        <h3>미래엔 WORKS</h3>
+        <div class="works_con">
+            <ul class="works">
+                <li>
+                    <img src="./img/miaren_works1.png" alt="">
+                    <a href="#">
+                        <p>교과서</p>띄어쓰기 사전
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <img src="./img/miaren_works2.png" alt="">
+                    <a href="#">
+                        엠티처<br>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <img src="./img/miaren_works3.png" alt="">
+                    <a href="#">
+                        vol.321<br>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <img src="./img/miaren_works4.png" alt="">
+                    <a href="#">
+                        프린트엔<br>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <img src="./img/miaren_works5.png" alt="">
+                    <a href="#">
+                        목정<br>미래재단
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <img src="./img/miaren_works6.png" alt="">
+                    <a href="#">
+                        웰리미<br>한글진단검사
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul class="works">
+                <li>
+                    <img src="./img/miaren_works7.png" alt="">
+                    <a href="#">
+                        <p>교과서</p>박물관
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <img src="./img/miaren_works8.png" alt="">
+                    <a href="#">
+                        공모전
+                    </a>
+                </li>
+                <li>
+                    <img src="./img/miaren_works9.png" alt="">
+                    <a href="#">
+                        맘티처
+                    </a>
+                </li>
+                <li>
+                    <img src="./img/miaren_works10.png" alt="">
+                    <a href="#">
+                        교재<br>큐레이션
+                    </a>
+                </li>
+                <li>
+                    <img src="./img/miaren_works11.png" alt="">
+                    <a href="#">
+                        미래교육상<br>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <img src="./img/miaren_works12.png" alt="">
+                    <a href="#">
+                        엠티처<br>라운지M
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="sec4">
+        <h3>미래엔 PICK</h3>
+        <p>참고서</p>
+        <div>
+            <ul class="ref_book">
+                <li>
+                    <a href="#">자세히보기</a>
+                    <img src="./img/miaren_pick1.jpg" alt="">
+                    <p>
+                        <span>초등</span><br>
+                        하루 한장 독해 시작편①<br>
+                        문장으로 시작하기
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- <section class="sec4">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./img/miaren_works1.png" alt="">
+                    <a href="#">
+                        <p>교과서</p>띄어쓰기 사전
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+                <div class="swiper-slide">Slide 10</div>
+                <div class="swiper-slide">Slide 11</div>
+                <div class="swiper-slide">Slide 12</div>
+            </div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 4,
+          grid: {
+            rows: 2
+          },
+          scrollbar: {
+            el: ".swiper-scrollbar",
+            hide: false
+          }
+        });
+      </script> -->
+</body>
+
+</html>
